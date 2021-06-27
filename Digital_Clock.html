@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock 2</title>
+    <link rel="stylesheet" href="proj2.css">
+</head>
+<script language=JavaScript>    
+    var message = "function is disabled";
+    
+    function rtclickcheck(keyp)
+    { 
+        if (navigator.appName == "Netscape" && keyp.which == 3)
+        { 
+            alert(message); return false; 
+        }
+        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) 
+        { 
+            alert(message); return false; 
+        } 
+    } 
+    document.onmousedown = rtclickcheck;    
+</script>
+<body onload="clck()">
+    <div class="clk">
+        <div class="acar">
+
+            <div class="mf">
+                <div class="hzmm abc alc">
+                    <div class="fp alc" id="mf0"></div>
+                    <div class="sp alc" id="mf1"></div>
+                    <div class="fp alc" id="mf2"></div>  
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="mf3"></div>
+                    <div class="b1 b2 alc" id="mf4"></div>
+                </div>
+                <div class="hzmm">
+                    <div class="fp alc" id="mf5"></div>
+                    <div class="sp alc" id="mf6"></div>
+                    <div class="fp alc" id="mf7"></div>
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="mf8"></div>
+                    <div class="b1 b2 alc" id="mf9"></div>
+                </div>
+                <div class="hzmm alc">
+                    <div class="fp alc" id="mf10"></div>
+                    <div class="sp alc" id="mf11"></div>
+                    <div class="fp alc" id="mf12"></div>  
+                </div>
+            </div>
+
+
+            <div class="ms">
+                <div class="hzmm abc alc">
+                    <div class="fp alc" id="ms0"></div>
+                    <div class="sp alc" id="ms1"></div>
+                    <div class="fp alc" id="ms2"></div>  
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="ms3"></div>
+                    <div class="b1 b2 alc" id="ms4"></div>
+                </div>
+                <div class="hzmm">
+                    <div class="fp alc" id="ms5"></div>
+                    <div class="sp alc" id="ms6"></div>
+                    <div class="fp alc" id="ms7"></div>
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="ms8"></div>
+                    <div class="b1 b2 alc" id="ms9"></div>
+                </div>
+                <div class="hzmm alc">
+                    <div class="fp alc" id="ms10"></div>
+                    <div class="sp alc" id="ms11"></div>
+                    <div class="fp alc" id="ms12"></div>  
+                </div>
+            </div>
+
+
+            <div class="dts">
+                <div class="dt1"></div>
+                <div class="dt1"></div>
+            </div>
+
+
+            <div class="sf">
+                <div class="hzmm abc alc">
+                    <div class="fp alc" id="sf0"></div>
+                    <div class="sp alc" id="sf1"></div>
+                    <div class="fp alc" id="sf2"></div>  
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="sf3"></div>
+                    <div class="b1 b2 alc" id="sf4"></div>
+                </div>
+                <div class="hzmm">
+                    <div class="fp alc" id="sf5"></div>
+                    <div class="sp alc" id="sf6"></div>
+                    <div class="fp alc" id="sf7"></div>
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="sf8"></div>
+                    <div class="b1 b2 alc" id="sf9"></div>
+                </div>
+                <div class="hzmm alc">
+                    <div class="fp alc" id="sf10"></div>
+                    <div class="sp alc" id="sf11"></div>
+                    <div class="fp alc" id="sf12"></div>  
+                </div>
+            </div>
+
+
+            <div class="ss">
+                <div class="hzmm abc alc">
+                    <div class="fp alc" id="ss0"></div>
+                    <div class="sp alc" id="ss1"></div>
+                    <div class="fp alc" id="ss2"></div>  
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="ss3"></div>
+                    <div class="b1 b2 alc" id="ss4"></div>
+                </div>
+                <div class="hzmm">
+                    <div class="fp alc" id="ss5"></div>
+                    <div class="sp alc" id="ss6"></div>
+                    <div class="fp alc" id="ss7"></div>
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="ss8"></div>
+                    <div class="b1 b2 alc" id="ss9"></div>
+                </div>
+                <div class="hzmm alc">
+                    <div class="fp alc" id="ss10"></div>
+                    <div class="sp alc" id="ss11"></div>
+                    <div class="fp alc" id="ss12"></div>  
+                </div>
+            </div>
+
+
+            <div class="dts">
+                <div class="dt1"></div>
+                <div class="dt1"></div>
+            </div>
+
+
+            <div class="ssf">
+                <div class="hzmm abc alc">
+                    <div class="fp alc" id="ssf0"></div>
+                    <div class="sp alc" id="ssf1"></div>
+                    <div class="fp alc" id="ssf2"></div>  
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="ssf3"></div>
+                    <div class="b1 b2 alc" id="ssf4"></div>
+                </div>
+                <div class="hzmm">
+                    <div class="fp alc" id="ssf5"></div>
+                    <div class="sp alc" id="ssf6"></div>
+                    <div class="fp alc" id="ssf7"></div>
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="ssf8"></div>
+                    <div class="b1 b2 alc" id="ssf9"></div>
+                </div>
+                <div class="hzmm alc">
+                    <div class="fp alc" id="ssf10"></div>
+                    <div class="sp alc" id="ssf11"></div>
+                    <div class="fp alc" id="ssf12"></div>  
+                </div>
+            </div>
+
+
+            <div class="sss">
+                <div class="hzmm abc alc">
+                    <div class="fp alc" id="sss0"></div>
+                    <div class="sp alc" id="sss1"></div>
+                    <div class="fp alc" id="sss2"></div>  
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="sss3"></div>
+                    <div class="b1 b2 alc" id="sss4"></div>
+                </div>
+                <div class="hzmm">
+                    <div class="fp alc" id="sss5"></div>
+                    <div class="sp alc" id="sss6"></div>
+                    <div class="fp alc" id="sss7"></div>
+                </div>
+                <div class="vr">
+                    <div class="b1 alc" id="sss8"></div>
+                    <div class="b1 b2 alc" id="sss9"></div>
+                </div>
+                <div class="hzmm alc">
+                    <div class="fp alc" id="sss10"></div>
+                    <div class="sp alc" id="sss11"></div>
+                    <div class="fp alc" id="sss12"></div>  
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="proj2_min.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body
+{
+    background-color: rgb(55, 195, 237);   
+}
+.clk
+{
+    background-color: black;
+    height: 25%;
+    width: 40%;
+    position: fixed;
+    margin-left: 30%;
+    top: 35%;
+}
+.acar
+{
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%; 
+}
+.mf , .ms, .sf,.ss,.dts,.ssf,.sss
+{
+    float: left;
+    width: 19.3%;
+    width: 12.5%;
+    height: 100%;
+}
+.hz
+{
+    margin-left: 10%;
+    margin-top: 17%;
+    width: 80%;
+    height: 7%;
+}
+.vr
+{
+    margin-left: 10%;
+    width: 80%;
+    height: 30%;
+}
+.b1
+{
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+    float: left;
+}
+.b2
+{
+    float: right;
+}
+.hzm
+{
+    margin-top: 0%;
+}
+.dt1
+{
+    background-color: yellow;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 62.5%;
+    height: 17%;
+}
+.hzmm
+{
+    margin-left: 10%;
+    width: 80%;
+    height: 7%;
+    margin-top: 0%;
+    background-color: yellow;
+}
+.fp,.sp
+{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.sp
+{
+    width: 60%;
+}
+.abc
+{
+    margin-top: 17%;
+}
